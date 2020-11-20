@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="When receiving clipboard...">
+        <CheckBoxPreference android:title="Enable notification" android:key="notification_enabled" android:defaultValue="true" />
+        <CheckBoxPreference android:title="Visual" android:key="notification_toast" android:defaultValue="true" />
+        <RingtonePreference android:title="Ringtone" android:key="notification_ringtone" android:defaultValue="content://settings/system/notification_sound" android:ringtoneType="notification" android:showDefault="true" android:showSilent="true" />
+        <CheckBoxPreference android:title="Vibrate" android:key="notification_vibrate" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

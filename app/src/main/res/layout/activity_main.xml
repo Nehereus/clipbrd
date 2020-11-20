@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ToggleButton android:id="@id/btn_master_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/sync_is_on" android:textOff="@string/sync_is_off" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0sp">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/txt_signed_in_as" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0sp" android:text="@string/signed_in_as_" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/txt_signed_in_as_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/undefined" />
+    </LinearLayout>
+    <Button android:layout_gravity="center_horizontal" android:id="@id/btn_sign_out" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sign_out" />
+</LinearLayout>

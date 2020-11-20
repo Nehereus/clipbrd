@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:padding="10.0sp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:layout_gravity="center" android:id="@id/signin_email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/email" android:inputType="textEmailAddress" />
+    <EditText android:layout_gravity="center" android:id="@id/signin_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/password" android:inputType="textPassword" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/forgot_password" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0sp" android:text="@string/forgot_your_password_" />
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btn_sign_in" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sign_in" />
+        <Button android:id="@id/btn_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" />
+    </LinearLayout>
+</LinearLayout>
